@@ -1,1 +1,18 @@
-
+{
+    "SEED": 1,
+    "dataset": "FC100",
+    "meta_lr": 1e-3,
+    "task_lr": 1e-1,
+    "wd":[1e-2,1e-1],
+    "num_episodes": 40000,
+    "num_classes": 5,
+    "num_samples": 5,
+    "num_query": 10,
+    "num_steps": 1000,
+    "num_curri_steps": 500,
+    "num_inner_tasks": 8,
+    "num_train_updates": 1,
+    "num_eval_updates": 3,
+    "save_summary_steps": 500,
+    "num_workers": 1
+}
